@@ -1,7 +1,7 @@
 # asteroids
 Javascript and HTML asteroids game
 
-This project is a beginner-friendly implementation of an asteroids game using HTML canvas and JavaScript. Let's break down the main components and concepts utilized:
+This project is a beginner-friendly implementation of an asteroids game from 1979 Atari using HTML canvas and JavaScript. Let's break down the main components and concepts utilized:
 
 1. Canvas Setup: The HTML canvas element is selected, and its 2D context is obtained for drawing graphics. The canvas dimensions are set to match the inner dimensions of the browser window.
 
@@ -9,7 +9,7 @@ This project is a beginner-friendly implementation of an asteroids game using HT
 
 3. Projectile Class: Represents the projectiles fired by the player's ship. Similar to the player class, it handles drawing and updating the projectile's position based on velocity.
 
-4. **Asteroid Class**: Represents the asteroids moving across the screen. Like the player and projectile classes, it handles drawing and updating the asteroid's position.
+4. Asteroid Class: Represents the asteroids moving across the screen. Like the player and projectile classes, it handles drawing and updating the asteroid's position.
 
 5. Game Loop (Animate Function): Utilizes the `requestAnimationFrame` method to continuously update the game state and redraw the canvas. It updates the player, projectiles, and asteroids, checks for collisions, and manages user input.
 
